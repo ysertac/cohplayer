@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 15px; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+  main {
+    width: 350px;
+  }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+#progress .times {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .6rem;
+  padding-right: .6rem; }
+
+.card-footer,
+#volume-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .6rem;
+  padding-right: .6rem; }
+
+#volume-div i {
+  margin-right: .5rem; }
